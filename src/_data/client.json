@@ -1,15 +1,15 @@
 {
-	"name": "Code Stitch Web Designs",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"name": "Кафедра СЭГЗС",
+	"email": "kafedra_zs@mail.ru",
+	"phoneForTel": "+7-495-939-36-21",
+	"phoneFormatted": "+7(495) 939-3621",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"lineOne": "ГСП-1, РФ, Москва, Ленинские горы,",
+		"lineTwo": "МГУ имени М.В. Ломоносова, Географический факультет, кафедра СЭГЗС",
+		"city": "Москва,",
+		"state": "РФ,",
+		"zip": "119991",
+		"mapLink": "https://yandex.ru/maps/org/glavnoye_zdaniye_mgu_imeni_m_v_lomonosova/30052052914/?ll=37.530822%2C55.702952&z=17"
 	},
-	"domain": "www.codestitch.app"
+	"domain": "www.segzs.app"
 }
