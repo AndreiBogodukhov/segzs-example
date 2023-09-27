@@ -11,6 +11,7 @@
             width: 100%;
             max-width: calc(1280 / 16 * 1rem);
             margin: auto;
+            margin-top: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -84,8 +85,9 @@
         .cs-picture {
             display: block;
             position: relative;
-            width: 100%;
+            width: 70%;
             height: calc(300 / 16 * 1rem);
+            // object-fit: contain;
 
             img {
                 position: absolute;
@@ -109,6 +111,7 @@
             justify-content: flex-start;
             /* 60px - 128px */
             gap: clamp(3.75rem, 10vw, 8rem);
+            margin-top: 20px;
         }
 
         .cs-content {
@@ -118,7 +121,7 @@
         }
 
         .cs-picture {
-            width: 47vw;
+            width: 27vw;
             max-width: calc(494 / 16 * 1rem);
             /* 518px - 700px */
             height: clamp(32.375rem, 63vw, 43.75rem);

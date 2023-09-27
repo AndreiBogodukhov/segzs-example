@@ -372,7 +372,7 @@
         .cs-logo {
             width: 40%;
             max-width: calc(146 / 16 * 1rem);
-            height: 100%;
+            height: 47px;
             margin: 0 auto 0 0;
             /* prevents padding from affecting height and width */
             box-sizing: border-box;
@@ -579,10 +579,10 @@
         #cs-navigation {
             background-color: var(--dark);
 
-            .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
-            }
+            // .cs-logo {
+            //     /* makes it white */
+            //     filter: grayscale(1) brightness(1000%);
+            // }
 
             .cs-line {
                 background-color: #fff;
@@ -938,10 +938,10 @@
         #cs-navigation {
             background-color: var(--dark);
 
-            .cs-logo {
-                /* makes it turn white */
-                filter: grayscale(1) brightness(1000%);
-            }
+            // .cs-logo {
+            //     /* makes it turn white */
+            //     filter: grayscale(1) brightness(1000%);
+            // }
 
             .cs-li-link {
                 color: var(--bodyTextColorWhite);
@@ -1195,6 +1195,7 @@
         font-size: min(4vw, 1.2em);
         padding: calc(84 / 16 * 1rem) 0 calc(20 / 16 * 1rem);
         background: #1c1c1c;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px -8px 24px;
 
         .left-section {
             text-align: center;
@@ -1210,8 +1211,9 @@
 
                 img {
                     width: auto;
-                    height: 100%;
+                    height: 180%;
                     display: block;
+                    margin-bottom: 15px;
                 }
             }
 
@@ -1342,6 +1344,7 @@
 @media only screen and (min-width: 64em) {
     #footer {
         font-size: min(1.2vw, 1em);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px -8px 24px;
         .container {
             width: 96%;
             max-width: calc(1320 / 16 * 1rem);
@@ -1351,6 +1354,7 @@
             flex-direction: row;
             justify-content: space-between;
             flex-wrap: nowrap;
+            
         }
 
         .left-section {
@@ -1433,7 +1437,7 @@
 @media only screen and (min-width: 0em) {
     body.dark-mode {
         #footer {
-            background: #061623;
+            background: #121212;
         }
     }
 }
