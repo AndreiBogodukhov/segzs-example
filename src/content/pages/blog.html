@@ -40,7 +40,7 @@ eleventyNavigation:
             <!-- ============================================ -->
 
             {% if collections.post | length == 0 %}
-                <h1>No Recent Posts</h1>
+                <h1>Пока здесь пусто</h1>
             {% else %}
                 {%- for post in collections.post | reverse -%}
                     <article class="recent-articles">
